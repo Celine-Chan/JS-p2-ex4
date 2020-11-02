@@ -1,4 +1,4 @@
-let userGrade = prompt('Indiquez une note');
+let userGrade = prompt('Indiquez une note entre 0 et 10 :');
 
 if (userGrade <= 3) {
     alert('Nul');
@@ -10,4 +10,6 @@ if (userGrade <= 3) {
     alert('Bien');
 } else if (userGrade == 10) {
     alert('Excellent');
+} else {
+    alert('erreur !');
 }
